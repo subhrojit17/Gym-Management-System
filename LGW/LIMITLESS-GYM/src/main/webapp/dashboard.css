@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+	text-transform: uppercase;
+}
+
+body {
+	font-family: 'poppins';
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-image: url(resources/bg.jpg);
+	mask-repeat: no-repeat;
+
+}
+
+.admin-header {
+	text-align: center;
+	height: 50px;
+	justify-content: center;
+	background-color: rgba(243, 51, 51, 0.333);
+	color: white;
+	padding: 7px 0px 1px 2px;
+}
+
+.admin-header h1 {
+	margin-top: 0%;
+}
+
+.admin-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 80vh;
+}
+
+.admin-box {
+	width: 300px;
+	height: 300px;
+	background-color: #0a030466;
+	color: white;
+	text-align: center;
+	display: flex;
+	margin: 10px;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 12px;
+
+	&:hover {
+		transform: scale(0.9);
+	}
+}
+
+.admin-box a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+.footer {
+	width: 98%;
+	height: 60px;
+	display: flexbox;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1%;
+
+	background: rgba(243, 51, 51, 0.646);
+}
+
+.footer-box {
+
+	padding: 0;
+	margin: 0;
+	width: 80%;
+}
+
+.footer-box a {
+	padding: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	justify-content: space-evenly;
+	text-decoration: none;
+	margin: 2px 14px;
+	color: #fff;
+
+	&:hover {
+		transform: scale(1.1);
+		background-color: white;
+		color: red;
+	}
+}
+
+.footer-box h3 {
+	font-weight: 900;
+	font-size: 16px;
+	padding: 2px 2px;
+	margin: 6px 17px;
+}
